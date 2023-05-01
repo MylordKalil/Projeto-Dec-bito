@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/brands.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome/css/solid.css">
+    <link rel="stylesheet" href="fontawesome/css/svg-with-js.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo_for_website.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Galeria</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+
+                <p>Projeto de melhoria hospitalar</p>
+                <h1>Olá, seja bem vindo ao <span>Flack's</span><br>From Porto Velho - RO</h1>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------about----------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-01">
+                    <img src="C:\Users\Kalil\Desktop\Portofolio\imagens/kalil.png">
+                </div>
+                <div class="about-col-02">
+                    <h1 class="sub-title">Relogio de Decúbito</h1>
+                    <p>Um relógio de decúbito é um dispositivo utilizado em hospitais para monitorar a posição do paciente na cama. Além de prevenir lesões por pressão, o relógio de decúbito pode melhorar o conforto e a recuperação do paciente, permitindo que a equipe médica monitore e ajuste as posições com mais frequência. Seguindo esta premissa, este projeto é inspirado no modelo de relógio Lowthian de baixo custo, utilizando peças construídas em impressoras 3D, placa Arduino e servo-motor.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Diferencial')">DIFERENCIAL</p>
+                        <p class="tab-links" onclick="opentab('experiencias')">EXPERIENCIAS</p>
+                        <p class="tab-links" onclick="opentab('Colaboradores')">EQUIPE</p>
+                        <p class="tab-links" onclick="opentab('Futuro')">MELHORIAS</p>
+                
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Diferencial">
+                        <ul>
+                            <li><span>Ponteiro</span><br>Ponteiro autonomo</li>
+                            <li><span>Display</span><br>Tela LCD</li>
+                            <li><span>Manutenção</span><br>Fácil manuntenção</li>
+                            <li><span>Controle</span><br>Controle autonomo</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experiencias">
+                        <ul>
+                            <li><span>2023 - Hospital</span><br>Hospital de Base Dr. Ary Pinheiro</li>
+                            <li><span>2020 - Current</span><br>Support Analist at School and College UniSapiens</li>
+                            <li><span>2020 - Current</span><br>Self-employed Graphic Designer</li>
+                            <li><span>2019 - 2020</span><br>Computing Trainee at School and College UniSapiens</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Colaboradores">
+                        <ul>
+                            <li><span>Prº Arthur Vitorio</span><br>Graduate Degree in Data Analysis</li>
+                            <li><span>Prº José Diogo</span><br>Graduate Degree in Multiplatform Mobile Application Projects</li>
+                            <li><span>Kalil Lopes</span><br>Aluno de Engenharia de Controle e Automação</li>
+                            <li><span>Leticia</span><br>Aluna de Engenharia de Controle e Automação</li>
+                            <li><span>Alex Henrique</span><br>Aluno de Engenharia de Controle e Automação</li>
+                            <li><span>Frabricio Martins</span><br>Aluno de Engenharia de Controle e Automação</li>
+                            <li><span>Cristina</span><br>Aluna de Engenharia de Controle e Automação</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Futuro">
+                        <ul>
+                            <li><span>UPGRADES</span><br>PID.</li>
+                           <li>Pulseira Inteligente.</li>
+                           <li>Painel de Controle Via PowerBi.</li>
+                            
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!---------------services----------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Desenvolvimento</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Programação</h2>
+                    <p>Incomings of large social networks, which are nowadays
+                        measured in billions of dollars and are steepling</p>
+                    <a href="#">Learn more</a>
+                    <br>
+
+                    <a href="images/Programação.txt" download class="btn btn2">Download Programação</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>Galeria</h2>
+                    <p>Incomings of large social networks, which are nowadays
+                        measured in billions of dollars and are steepling</p>
+                    <a href="#">Learn more</a>
+                    <br>
+                     <a href="https://photos.app.goo.gl/Jetds7jLe9Sfx9BW9" download class="btn btn2">Galeria </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pencil"></i></i>
+                    <h2>Publicações</h2>
+                    <p>Incomings of large social networks, which are nowadays
+                        measured in billions of dollars and are steepling</p>
+                    <a href="#">Learn more</a>
+                    <br>
+                    <a href="https://docs.google.com/document/d/1xTc9fFUctK2z1imMhJvNefI6j0xclCEuDPEL4lH3g74/edit?usp=sharing" download class="btn btn2">Artigo
+                    <a href="https://docs.google.com/presentation/d/1mzLk4sQmctA_C94baJ4-DhKx-3Ayumc4MaPwyzYENmo/edit?usp=share_link" download class="btn btn2">Apresentação</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------portfolio----------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Informações</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/fabricio.jpeg">
+
+                    <div class="layer">
+                        <h3>Programação</h3>
+                        <p>Etapa do processo de desenvolvimento que consiste em fazer um protótipo do que se está criando.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/prop.jpeg">
+                    <div class="layer">
+                        <h3>Prototipagem</h3>
+                        <p>Inicio do desenvolvimento da programação, com o a ideia de ligar a tela lcd.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/todes.png">
+                    <div class="layer">
+                        <h3>Visita técnica ao hospital.</h3>
+                        <p>The app connects you yo the talented people around the world
+                            Donload it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- ---------------------contact----------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> kalillopes2002@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +55(69)99291-4859</p>
+                    <div class="social-incons">
+                        <a href="https://www.facebook.com/khalil.Lopezs/"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/SandroN53982314"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/sandrographicdesign"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sandro-nascimento-407a36175"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/artigo.pdf" download class="btn btn2">Download Artigo</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="coyright">
+            <p>Copyright © KALIL LOPES.</p>
+        </div>
+    </div>
+
+</script>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxmn7E7nb_0ubbA2H_5k8ELu8FH8hJ3OZHQ8anHfH8Bwb0xBiDMMJlVC1HRLic_2RXi/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
