@@ -206,6 +206,12 @@ nav ul li a:hover::after {
 
 
 #portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fitn minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 0 1rem;
+    margin-top: 2rem;
     padding: 50px 0;
 }
 
